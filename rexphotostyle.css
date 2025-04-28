@@ -1,65 +1,98 @@
-body {
-    margin: 0;
-    font-family: 'Arial', sans-serif;
-    background-color: #f5f5f5;
-    color: #333;
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .hero {
+        height: 60vh;
+        font-size: 2em;
+        flex-direction: column;
+        padding: 20px;
+        text-align: center;
+    }
+
+    nav {
+        flex-wrap: wrap;
+    }
+
+    nav a {
+        padding: 10px;
+        flex: 1 1 100%; /* Each link takes full width if needed */
+        text-align: center;
+    }
+
+    header h1 {
+        font-size: 1.8em;
+    }
+
+    header p {
+        font-size: 1em;
+    }
 }
 
-header {
-    background-color: #222;
-    color: white;
-    padding: 20px;
-    text-align: center;
+@media (max-width: 480px) {
+    .hero {
+        height: 50vh;
+        font-size: 1.5em;
+    }
+
+    header h1 {
+        font-size: 1.5em;
+    }
+
+    header p {
+        font-size: 0.9em;
+    }
+
+    footer p {
+        font-size: 0.9em;
+    }
 }
 
-nav {
-    display: flex;
-    justify-content: center;
-    background-color: #444;
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .hero {
+        height: 60vh;
+        font-size: 2em;
+        flex-direction: column;
+        padding: 20px;
+        text-align: center;
+    }
+
+    nav {
+        flex-wrap: wrap;
+    }
+
+    nav a {
+        padding: 10px;
+        flex: 1 1 100%; /* Each link takes full width if needed */
+        text-align: center;
+    }
+
+    header h1 {
+        font-size: 1.8em;
+    }
+
+    header p {
+        font-size: 1em;
+    }
 }
 
-nav a {
-    color: white;
-    padding: 14px 20px;
-    text-decoration: none;
-    text-transform: uppercase;
+@media (max-width: 480px) {
+    .hero {
+        height: 50vh;
+        font-size: 1.5em;
+    }
+
+    header h1 {
+        font-size: 1.5em;
+    }
+
+    header p {
+        font-size: 0.9em;
+    }
+
+    footer p {
+        font-size: 0.9em;
+    }
 }
 
-nav a:hover {
-    background-color: #555;
-}
-
-.hero {
-    background-image: url('https://github.com/xerolegna/xerolegna.photo.github.io/blob/main/IMG_0333.jpg');
-    background-size: cover;
-    background-position: center;
-    height: 80vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: white;
-    font-size: 3em;
-    text-shadow: 2px 2px 4px rgba(0,0,0,0.7);
-}
-
-.gallery {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 20px;
-    padding: 40px;
-}
-
-.gallery img {
-    width: 100%;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
-}
-
-footer {
-    text-align: center;
-    padding: 20px;
-    background-color: #222;
-    color: white;
-    margin-top: 40px;
-}
 
