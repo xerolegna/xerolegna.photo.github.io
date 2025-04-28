@@ -36,6 +36,8 @@ nav a:hover {
     font-size: 3em;
     text-shadow: 2px 2px 4px rgba(0,0,0,0.7);
 }
+
+}
 .gallery {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
