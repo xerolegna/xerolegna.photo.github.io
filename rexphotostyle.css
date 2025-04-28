@@ -25,7 +25,7 @@ nav a:hover {
     background-color: #555;
 }
 .hero {
-    background: url(https://github.com/xerolegna/xerolegna.photo.github.io/blob/main/IMG_0333.jpg) no-repeat center center;
+    background: url('https://xerolegna.photo.github.io/IMG_0333.jpg') no-repeat center center;
     background-size: cover;
     background-position: center;
     height: 80vh;
