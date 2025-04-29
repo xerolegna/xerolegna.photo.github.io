@@ -38,7 +38,7 @@ nav a:hover {
     flex-direction: column; /* (this is a good idea too) */
     align-items: center;
     justify-content: center;
-    color: black; /* <<< change white to black */
+    color: white;
     font-size: 3em;
     text-shadow: none; /* <<< remove the white text shadow if you want it clean */
 }
