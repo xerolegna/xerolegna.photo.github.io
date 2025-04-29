@@ -39,7 +39,7 @@ nav a:hover {
     align-items: center;
     justify-content: center;
     color: white;
-    font-size: 3em;
+    font-size: 2.3em;
     text-shadow: none; /* <<< remove the white text shadow if you want it clean */
 }
 
