@@ -40,7 +40,7 @@ nav a:hover {
     justify-content: center;
     color: white;
     font-size: 2.7rem;
-    text-shadow: none; /* <<< remove the white text shadow if you want it clean */
+    text-shadow: black; /* <<< remove the white text shadow if you want it clean */
 }
 
 .gallery {
