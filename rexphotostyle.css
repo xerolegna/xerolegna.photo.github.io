@@ -63,21 +63,7 @@ nav a:hover {
 .gallery img:hover {
     transform: scale(1.05);
     box-shadow: 0 8px 16px rgba(0,0,0,0.3);
-}
 
-@media (max-width: 600px) {
-    .gallery {
-        grid-template-columns: 1fr;
-        padding: 10px;
-    }
-
-    .gallery img {
-        border-radius: 8px;
-    }
-
-    .hero {
-        font-size: 2rem; /* <<< make hero text smaller on phones */
-    }
 }
 
 footer {
