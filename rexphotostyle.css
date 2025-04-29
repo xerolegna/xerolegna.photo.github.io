@@ -32,7 +32,7 @@ nav a:hover {
 .hero {
     background-image: url('https://github.com/xerolegna/xerolegna.photo.github.io/blob/main/IMG_0333.jpg');
     background-size: cover;
-    background-position: center bottom;
+    background-position: center;
     height: 65vh;
     display: flex;
     flex-direction: column;
