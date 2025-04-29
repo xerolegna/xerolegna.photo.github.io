@@ -30,7 +30,7 @@ nav a:hover {
 }
 
 .hero {
-    background-image: url('https://github.com/xerolegna/xerolegna.photo.github.io/blob/main/IMG_0333.jpg');
+    background-image: url('https://xerolegna.photo.github.io/IMG_0333.jpg');
     background-size: cover;
     background-position: center;
     height: 65vh;
@@ -42,6 +42,7 @@ nav a:hover {
     font-size: 2.7rem;
     text-shadow: 2px 2px 5px black;
 }
+
 
 .gallery {
     display: grid;
