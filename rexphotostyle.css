@@ -33,7 +33,7 @@ nav a:hover {
     background-image: url('https://raw.githubusercontent.com/xerolegna/xerolegna.photo.github.io/main/IMG_0333.jpg');
     background-size: cover;
     background-position: center bottom;
-    height: 70vh;
+    height: 65vh;
     display: flex;
     flex-direction: column;
     align-items: center;
