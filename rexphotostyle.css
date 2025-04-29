@@ -35,13 +35,14 @@ nav a:hover {
     background-position: center;
     height: 70vh;
     display: flex;
-    flex-direction: column; /* (this is a good idea too) */
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     color: white;
     font-size: 2.7rem;
-    text-shadow: black; /* <<< remove the white text shadow if you want it clean */
+    text-shadow: 2px 2px 5px black; /* <-- now it's correct */
 }
+
 
 .gallery {
     display: grid;
