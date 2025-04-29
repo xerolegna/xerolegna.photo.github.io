@@ -30,18 +30,16 @@ nav a:hover {
 }
 
 .hero {
-    background-image: url('https://raw.githubusercontent.com/xerolegna/xerolegna.photo.github.io/main/IMG_0333.jpg');
+    background-image: url('https://xerolegna.photo.github.io/IMG_0333.jpg'); /* Add the background image */
     background-size: cover;
-    background-position: center bottom;
-    height: 65vh;
+    background-position: center;
+    height: 80vh;
     display: flex;
-    flex-direction: column;
     align-items: center;
     justify-content: center;
     color: white;
-    font-size: 2.7rem;
-    text-shadow: 2px 2px 5px black;
-}
+    font-size: 3em;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.7);
 
 .gallery {
     display: grid;
