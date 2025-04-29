@@ -47,9 +47,9 @@ nav a:hover {
 
 .gallery {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   gap: 20px;
-  padding: 40px;
+  padding: 20px;
 }
 
 .gallery img {
@@ -61,10 +61,20 @@ nav a:hover {
   transition: transform 0.3s, box-shadow 0.3s;
 }
 
-/* Optional: Add a nice hover effect */
 .gallery img:hover {
   transform: scale(1.05);
   box-shadow: 0 8px 16px rgba(0,0,0,0.3);
+}
+
+@media (max-width: 600px) {
+  .gallery {
+    grid-template-columns: 1fr;
+    padding: 10px;
+  }
+
+  .gallery img {
+    border-radius: 8px;
+  }
 }
 
 
